@@ -10,6 +10,7 @@ body{
     background-image: url(img/Fondo.png);
     background-size:cover;
     background-attachment: fixed;
+    height: 80%;
 }
 
 header{
@@ -35,6 +36,11 @@ nav{
     list-style: none;
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: auto;
+    flex-wrap: wrap;
 }
 
 .menu-horizontal li a{
@@ -322,6 +328,8 @@ nav{
 footer{
     position: fixed;
     bottom: 0;
+    width: 90%;
+
     
 }
 
@@ -338,6 +346,11 @@ footer{
     text-align: left;
     padding: 50px 50px 60px 50px;
     margin-top: 80px;
+    margin: auto;
+    width: 100%;
+    max width: 1200px;
+
+
 }
 
 .Pie-de-pagina .pie-izquierdo, .Pie-de-pagina .pie-centro, .Pie-de-pagina .pie-derecho{

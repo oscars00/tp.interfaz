@@ -48,35 +48,35 @@
             </div>
 
             <div class = "card-content">
-                <h3>Reservation</h3>
+                <h3>Reservas</h3>
                 <form>
                     <div class = "form-row">
                         <select name = "days">
                             <option value = "day-select">Selecciona Local</option>
-                            <option value = "sunday">Local Caballito</option>
-                            <option value = "monday">Local Microcentro</option>
-                            <option value = "tuesday">Local Puerto Madero</option>
+                            <option value = "Caballito">Local Caballito</option>
+                            <option value = "Microcentro">Local Microcentro</option>
+                            <option value = "Puerto">Local Puerto Madero</option>
                         </select>
 
-                        <select name = "hours">
-                            <option value = "hour-select">Select Dia</option>
-                            <option value = "10">Lunes</option>
-                            <option value = "10">Martes</option>
-                            <option value = "10">Miercoles</option>
-                            <option value = "10">Jueves</option>
-                            <option value = "10">Virnes</option>
-                            <option value = "10">Sabado</option>
-                            <option value = "10">Domingo</option>
+                        <select name = "dias">
+                            <option value = "hour-select">Seleccione Dia</option>
+                            <option value = "Lunes">Lunes</option>
+                            <option value = "Martes">Martes</option>
+                            <option value = "Miercoles">Miercoles</option>
+                            <option value = "Jueves">Jueves</option>
+                            <option value = "viernes">Viernes</option>
+                            <option value = "Sabado">Sabado</option>
+                            <option value = "Domingo">Domingo</option>
                         </select>
                     </div>
 
                     <div class = "form-row">
                         <input type = "text" placeholder="Nombre" required="">
-                        <input type = "text" placeholder="Telefono" required="">
+                        <input type = "tel" placeholder="Telefono" required="">
                     </div>
 
                     <div class = "form-row">
-                        <input type = "text" placeholder="Horario">
+                        <input type = "datetime" placeholder="Horario">
                         <input type = "submit" value = "Reservar">
                     </div>
                 </form>

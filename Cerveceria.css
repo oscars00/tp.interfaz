@@ -348,10 +348,7 @@ footer{
     margin-top: 80px;
     margin: auto;
     width: 100%;
-    max width: 1200px;
-    
-
-
+    max width: 1200px;   
 }
 
 .Pie-de-pagina .pie-izquierdo, .Pie-de-pagina .pie-centro, .Pie-de-pagina .pie-derecho{
@@ -494,6 +491,9 @@ footer{
     grid-template-columns: repeat(2,1fr);
     column-gap: 1rem;
     row-gap: 1rem;
+    margin: 15px;
+    text-align: center;
+    padding: 20px;
   }
   
   .plato-carta{
@@ -501,6 +501,10 @@ footer{
     align-items: center;
     border: 1px solid #e5e5e5;
     border-radius: 6px;
+    margin: 15px;
+    text-align: center;
+    padding: 20px;
+
   }
   
   .img-plato-carta{
@@ -510,8 +514,8 @@ footer{
   }
   
   .img-plato-carta img{
-    max-width: 100px;
-    max-height: 75px;
+    max-width: 90%;
+    max-height: 90%;
   }
   
   .title-plato-carta{
@@ -541,3 +545,17 @@ footer{
     color: aliceblue;
   }
  
+  .drinks{
+    text-align: justify;
+    padding: 20px;
+    margin-left: 50px;
+    
+  }
+  .beers{
+    color: #fff;
+  }
+
+  #porter{
+    height: 11em;
+    width: 11em;
+  }
